@@ -151,6 +151,10 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
+.l-heading {
+  font-size: 3rem;
+}
+
 /* Inner page grid container  */
 .page-container {
   display: grid;
@@ -264,6 +268,18 @@ h1, h2, h3, h4, h5, h6 {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+/* Articles */
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: .5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
 }
 
 /* Footer */
